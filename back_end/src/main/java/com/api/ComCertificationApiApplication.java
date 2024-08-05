@@ -1,13 +1,13 @@
-package com.project;
+package com.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CertificateGenrationApplication {
+public class ComCertificationApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CertificateGenrationApplication.class, args);
+		SpringApplication.run(ComCertificationApiApplication.class, args);
 	}
 
 }

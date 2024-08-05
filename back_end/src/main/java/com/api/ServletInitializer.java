@@ -1,4 +1,4 @@
-package com.project;
+package com.api;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(CertificateGenrationApplication.class);
+		return application.sources(ComCertificationApiApplication.class);
 	}
 
 }
